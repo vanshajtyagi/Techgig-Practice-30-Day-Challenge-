@@ -5,12 +5,12 @@ n = int(input())
 s = str(int(n))
 d = len(s)
 sum = 0
-t = n
+temp = n
 while n>0:
     r = n%10
     sum = sum + pow(r,d)
     n//=10
-if t == sum:
+if temp == sum:
     print(True)
 else:
     print(False)
