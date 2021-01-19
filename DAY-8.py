@@ -1,5 +1,5 @@
 ''' Read input from STDIN. Print your output to STDOUT '''
-    #Use input() to read input from STDIN and use print to write your output to STDOUT
+    #Use input() to read input from STDIN and use print to write your output to STDOUT // we can use this program for day 8 and day 9 also.
 
 n = int(input())
 s = str(int(n))
